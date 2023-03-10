@@ -14,24 +14,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="">
-        </div>
+    <header class="header">
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><img class="menu" src="img/menu.png" alt="menu"></label>
 
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar-menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="#titulo-product">Productos</a>
-            <a href="#nosotros">Nosotros</a>
-            <a href="#">Contacto</a>
-            <label for="check" class="esconder-menu">
-                &#215
-            </label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#titulo-product">Productos</a>
+                    <ul>
+                        <li><a href="#licor">Licores</a></li>
+                        <li><a href="#abarrotes">Abarrotes</a></li>
+                        <li><a href="#lacteos">Lácteos</a></li>
+                        <li><a href="#bebidas">Bebidas</a></li>
+                        <li><a href="#preparados">Alimentos preparados</a></li>
+                        <li><a href="#medicamentos">Medicamentos OTC</a></li>
+                        <li><a href="#higiene">Higiene personal</a></li>
+                        <li><a href="#domestico">Uso doméstico</a></li>
+                        <li><a href="#jarlim">Jarcería y productos de limpieza</a></li>
+                    </ul>
+                </li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
         </nav>
     </header>
+
     <section id="banner">
         <div class="contenido-banner">
             <h3><span>Tienda Luis Mi:</span><br> Tienda de viveres y abarrotes</h3>
